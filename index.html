@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saint-Martin</title>
-    <style>
-        .div{
-            display:inline-block;
-            border: 5px solid black;
-            margin: 3px 0px 3px 0px;
-            font-size: xx-large;
-            text-align: center;
-        }
-        #one{
-            width: 99%;
-            height: 200px;
-        }
-        #two,#five{
-            width: 20%;
-            height: 700px;
-        }
-        #three{
-            width: 50%;
-            height: 50px;
-            /* text-align: center;*/
-        }
-        #four{
-            width: 50%;
-            height: 500px;
-                
-        }        
-    </style>
-<html>
-    <body>        
-            <div class="div" id="one">1</div>
-            <div class="div" id="two" >2</div>
-            <div class="div" id="three">3</div>
-            <div class="div" id="four">4</div>
-            <div class="div" id="five">5</div>
-    </body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .div1 {
+      height: 25vh;
+      border: 5px solid;
+      margin-bottom: 25px;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .div2 {
+      width: 30vw;
+      height: 65vh;
+      border: 5px solid;
+      margin-right: 25px;
+    }
+
+    .div3 {
+      width: 40vw;
+      height: 20vh;
+      border: 5px solid;
+      margin-right: 25px;
+      margin-bottom: 25px;
+    }
+
+    .div4 {
+      width: 40vw;
+      height: 40vh;
+      border: 5px solid;
+      margin-right: 25px;
+    }
+
+    
+    .div5 {
+      width: 30vw;
+      height: 65vh;
+      border: 5px solid;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="div1"></div>
+  <div class="container">
+    <div class="div2"></div>
+    <div class="container-2">
+      <div class="div3"></div>
+      <div class="div4"></div>
+    </div>
+    <div class="div5"></div>
+  </div>
+</body>
+
 </html>
